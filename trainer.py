@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Spyder Editor
-
-This is a temporary script file.
-"""
-
 import sqlite3
 def UpdateOrInsert(Id,l):
     con=sqlite3.connect('face.db')
