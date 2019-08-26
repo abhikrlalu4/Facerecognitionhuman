@@ -6,3 +6,6 @@ face recognition and identify various functionalities like age ,emotion, ethenci
 
 conda install opencv-python
 
+create folder
+name-data ,and face
+
