@@ -46,7 +46,7 @@ def predict(path,n,a):
         k=0
         print(Id)
         if profile is not None:
-            for i in range(1,len(profile)):
+            for i in range(1,len(profile)-1):
                 if profile[i]!='NULL':
                     cv2.putText(frame,profile[i],(x1,y2+k),font,1,(0,255,0),3)
                     k+=20
@@ -78,7 +78,7 @@ while True:
         k=0
         print(Id)
         if profile is not None:
-            for i in range(1,len(profile)):
+            for i in range(1,len(profile)-1):
                 if profile[i]!='NULL':
                     cv2.putText(frame,profile[i],(x,y+h+k),font,1,(0,255,0),3)
                     k+=20
